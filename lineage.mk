@@ -28,3 +28,9 @@ PRODUCT_MODEL := SM-T670
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=gvwifi \
+    PRIVATE_BUILD_DESC="gvwifiue-user 5.1.1 LMY47X T670UEU2APJ1 release-keys"
+
+BUILD_FINGERPRINT := samsung/gvwifiue/gvwifiue:5.1.1/LMY47X/T670UEU2APJ1:user/release-keys
