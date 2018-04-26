@@ -16,10 +16,6 @@ on post-fs-data
     # Create power directory
     mkdir /data/power 0771 system system
 
-    # Permission for System LSI NFC
-    chmod 0660 /dev/sec-nfc
-    chmod nfc nfc /dev/sec-nfc
-	
 on boot
     # S/W self discharging
     chown system system /sys/power/cpufreq_self_discharging
