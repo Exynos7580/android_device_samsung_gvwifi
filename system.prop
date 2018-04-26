@@ -1,5 +1,5 @@
 # Display
-ro.sf.lcd_density=320
+ro.sf.lcd_density=160
 
 # Wifi only
 ro.radio.noril=1
