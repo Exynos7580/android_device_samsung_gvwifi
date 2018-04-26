@@ -21,3 +21,6 @@
 
 PRODUCT_PACKAGES += \
     init.target.rc
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/ramdisk/etc/init.rc:root/init.rc
