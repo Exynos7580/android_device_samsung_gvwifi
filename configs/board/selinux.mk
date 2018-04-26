@@ -1,0 +1,2 @@
+# Selinux
+BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy

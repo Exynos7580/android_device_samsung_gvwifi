@@ -4,6 +4,9 @@ on early-boot
     write /proc/sys/net/core/rmem_max 2097152
     write /proc/sys/net/core/wmem_max 2097152
 
+on init
+    export LD_PRELOAD libshim_atomic.so
+
 on post-fs-data
     rm /data/logcat.txt
 

@@ -1,6 +1,5 @@
 #
-# Copyright 2016 The CyanogenMod Project
-# Copyright 2017-2018 The LineageOS Project
+# Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,12 +14,12 @@
 # limitations under the License.
 #
 
-#####################
-# Shims
-#####################
+LOCAL_PATH := $(call my-dir)
 
-PRODUCT_PACKAGES += \
-    libshim_gpsd \
-    libshim_camera \
-    libshim_sensor \
-    libshim_atomic
+include $(CLEAR_VARS)
+
+LOCAL_SRC_FILES := atomic.cpp
+LOCAL_MODULE := libshim_atomic
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+
+include $(BUILD_SHARED_LIBRARY)
