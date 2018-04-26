@@ -19,7 +19,7 @@
 # Bluetooth
 ###################
 
-vendor/firmware/bcm43438A1_V0051.0217.hcd
+vendor/firmware/bcm43455_V0097.0130.hcd
 
 ###################
 # Camera
