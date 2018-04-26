@@ -73,6 +73,7 @@ lib/libMcRegistry.so
 lib/hw/sensors.universal7580.so
 vendor/lib/libyasalgo.so:lib/libyasalgo.so
 lib/libsensorservice.so
+lib/libstlport.so
 
 ###################
 # Wi-Fi
