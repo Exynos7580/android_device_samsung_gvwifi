@@ -1,6 +1,9 @@
 # Display
 ro.sf.lcd_density=320
 
+# Wifi only
+ro.radio.noril=1
+
 # Dalvik/Art
 dalvik.vm.heapstartsize=8m
 dalvik.vm.heapgrowthlimit=128m
