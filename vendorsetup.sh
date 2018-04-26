@@ -1,2 +1,2 @@
-add_lunch_combo lineage_a3xeltexx-eng
-add_lunch_combo lineage_a3xeltexx-userdebug
+add_lunch_combo lineage_gvwifi-eng
+add_lunch_combo lineage_gvwifi-userdebug

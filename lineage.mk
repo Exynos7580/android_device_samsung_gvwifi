@@ -16,15 +16,15 @@
 #
 
 # Initialise device config
-$(call inherit-product, device/samsung/a3xeltexx/full_a3xeltexx.mk)
+$(call inherit-product, device/samsung/gvwifi/full_gvwifi.mk)
 
 # Inherit common Lineage phone.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := lineage_a3xeltexx
-PRODUCT_DEVICE := a3xeltexx
-PRODUCT_MODEL := SM-A310F
+PRODUCT_NAME := lineage_gvwifi
+PRODUCT_DEVICE := gvwifi
+PRODUCT_MODEL := SM-T670
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung

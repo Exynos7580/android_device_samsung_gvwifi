@@ -18,12 +18,12 @@
 # Inherit from Exynos7580-common
 include device/samsung/exynos7580-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := a3xelte, a3xeltexx, a3xelteub, a3xeltedo
+TARGET_OTA_ASSERT_DEVICE := gvwifi
 
-DEVICE_PATH := device/samsung/a3xeltexx
+DEVICE_PATH := device/samsung/gvwifi
 
 # Include makefiles from board folder
 -include $(DEVICE_PATH)/configs/board/*.mk
 
 # inherit from the proprietary version
--include vendor/samsung/a3xeltexx/BoardConfigVendor.mk
+-include vendor/samsung/gvwifi/BoardConfigVendor.mk
