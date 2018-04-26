@@ -19,6 +19,8 @@ LOCAL_PATH := device/samsung/gvwifi
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
+PRODUCT_CHARACTERISTICS := tablet
+
 # Inherit board specific products
 -include $(LOCAL_PATH)/configs/product/*.mk
 

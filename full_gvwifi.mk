@@ -19,7 +19,7 @@ PRODUCT_RUNTIMES := runtime_libart_default
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/samsung/gvwifi/device.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := gvwifi
