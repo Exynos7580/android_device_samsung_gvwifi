@@ -8,6 +8,9 @@ ro.radio.noril=1
 # Hardware rotation
 ro.sf.hwrotation=180
 
+# Enable soft keys
+qemu.hw.mainkeys=0
+
 # Dalvik/Art
 dalvik.vm.heapstartsize=8m
 dalvik.vm.heapgrowthlimit=128m
