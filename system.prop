@@ -11,6 +11,9 @@ ro.sf.hwrotation=180
 # Enable soft keys
 qemu.hw.mainkeys=0
 
+# Grid Recents
+ro.recents.grid=true
+
 # Dalvik/Art
 dalvik.vm.heapstartsize=8m
 dalvik.vm.heapgrowthlimit=128m
