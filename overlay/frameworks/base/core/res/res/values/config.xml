@@ -204,6 +204,9 @@
          device is data-only. -->
     <bool name="config_voice_capable">false</bool>
 
+    <!-- This device does not allow sms service. -->
+    <bool name="config_sms_capable">false</bool>
+
     <!-- If true, enables auto-rotation features using the accelerometer.
          Otherwise, auto-rotation is disabled.  Applications may still request
          to use specific orientations but the sensor is ignored and sensor-based
