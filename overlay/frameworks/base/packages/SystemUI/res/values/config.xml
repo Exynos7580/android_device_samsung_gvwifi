@@ -25,4 +25,7 @@
      value at runtime for some things) -->
     <bool name="config_recents_interface_for_tablets">true</bool>
 
+    <!-- Show rotation lock toggle in System UI-->
+    <bool name="config_showRotationLock">false</bool>
+
 </resources>
