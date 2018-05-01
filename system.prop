@@ -1,0 +1,3 @@
+# Wifi only
+ro.carrier=wifi-only
+ro.radio.noril=1
