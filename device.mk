@@ -13,3 +13,6 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
+
+# Get non-open-source specific aspects
+$(call inherit-product-if-exists, vendor/samsung/gvwifi/gvwifi-vendor.mk)
